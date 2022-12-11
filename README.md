@@ -11,7 +11,7 @@ Golang challeng docker images
 </div>
 <div>
   <h2>Passo 3:</h2>
-  Vai no browser digite: http://localhost:3500/
+  Vai no browser digite: <a href="http://localhost:3500/">👉️Click aqui</a>
 </div>
 
 <div>
