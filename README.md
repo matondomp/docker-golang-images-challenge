@@ -17,7 +17,11 @@ Golang challeng docker images
 <div>
   <h1>OU ainda criar uma imagem com o seguinte comando:</h1>
    <h2>Passo 1: </h2>
+  <div>
+    <span>git clone https://github.com/matondomp/docker-golang-images-challenge.git</span>
+  </div>
+   <h2>Passo 2: </h2>
     docker-compose up -d 
-  <div>Passo 2:</div>
+  <div>Passo 3:</div>
     Veja no browser: <a href="http://localhost:10000/" target="_blank">👉️Click aqui</a>
  </div>
