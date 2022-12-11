@@ -11,7 +11,7 @@ Golang challeng docker images
 </div>
 <div>
   <h2>Passo 3:</h2>
-  Vai no browser digite: <a href="http://localhost:3500/">👉️Click aqui</a>
+  Vai no browser digite: <a href="http://localhost:3500/" target="_blank">👉️Click aqui</a>
 </div>
 
 <div>
@@ -19,5 +19,5 @@ Golang challeng docker images
    <h2>Passo 1: </h2>
     docker-compose up -d 
   <div>Passo 2:</div>
-    http://localhost:10000/
+    <a href=" http://localhost:10000/" target="_blank">👉️Click aqui</a>
  </div>
