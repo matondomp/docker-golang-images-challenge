@@ -1,15 +1,23 @@
 # docker-golang-images-challenge
 Golang challeng docker images
 
-Passo 1:
+<div>
+  <h2>Passo 1:</h2>
   docker pull freitaspedros/fullcycle
-Passo 2: 
+</div>
+<div>
+  <h2>Passo 2:</h2>
    docker run -d --name [container_name] -p 3500:10000 freitaspedros/fullcycle
-Passo 3:
+</div>
+<div>
+  <h2>Passo 3:</h2>
   Vai no browser digite: http://localhost:3500/
+</div>
 
-OU ainda criar uma imagem com o seguinte comando:
-  Passo 1: 
+<div>
+  <p>OU ainda criar uma imagem com o seguinte comando:</p>
+   <h2>Passo 1: </h2>
     docker-compose up -d 
-  Passo 2:
+  <div>Passo 2:</div>
     http://localhost:10000/
+ </div>
