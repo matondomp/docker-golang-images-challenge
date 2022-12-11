@@ -15,7 +15,7 @@ Golang challeng docker images
 </div>
 
 <div>
-  <div>OU ainda criar uma imagem com o seguinte comando:</div>
+  <h1>OU ainda criar uma imagem com o seguinte comando:</h1>
    <h2>Passo 1: </h2>
     docker-compose up -d 
   <div>Passo 2:</div>
