@@ -1,8 +1,8 @@
 # docker-golang-images-challenge
 Golang challeng docker images
 
-  div>LINK DO DOCKER HUB:</div>
-    Veja Aqui: <a href="[http://localhost:10000/](https://hub.docker.com/repository/docker/freitaspedros/fullcycle/tags?page=1&ordering=last_updated)" target="_blank">👉️Click aqui</a>
+  <div>LINK DO DOCKER HUB:</div>
+    <a href="[http://localhost:10000/](https://hub.docker.com/repository/docker/freitaspedros/fullcycle/tags?page=1&ordering=last_updated)" target="_blank">👉️Click aqui</a>
  </div>
 
 <div>
@@ -23,7 +23,3 @@ Golang challeng docker images
    <h2>Passo 2: </h2>
     docker-compose up -d 
   
-  
-  <div>LINK DO DOCKER HUB:</div>
-    Veja Aqui: <a href="[http://localhost:10000/](https://hub.docker.com/repository/docker/freitaspedros/fullcycle/tags?page=1&ordering=last_updated)" target="_blank">👉️Click aqui</a>
- </div>
