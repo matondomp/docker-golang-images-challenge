@@ -1,19 +1,26 @@
-FROM golang as builder
 
+FROM golang:1.15 as builder
+
+RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
-RUN go mod init myapp 
+COPY go.mod .
+#COPY go.sum .
+
+ENV GOPROXY https://proxy.golang.org,direct
+
+RUN go mod download
 
 COPY . .
 
-ENTRYPOINT [ "go", "run","."]
+ENV CGO_ENABLED=0
 
-FROM golang:1.20rc1-alpine3.17
+RUN GOOS=linux go build ./main.go
+
+FROM scratch
 
 WORKDIR /usr/src/app
 
-COPY --from=builder /usr/src/app .
+COPY --from=builder /usr/src/app/main .
 
-EXPOSE 10000
-
-CMD [ "go", "run","." ]
+CMD ["/usr/src/app/main"]

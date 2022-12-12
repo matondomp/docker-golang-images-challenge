@@ -7,14 +7,4 @@ services:
       dockerfile: Dockerfile
     image: freitaspedros/fullcycle
     container_name: golang
-    networks:
-      - gonet
     tty: true
-    volumes:
-      - ./src:/usr/src/app
-    ports:
-      - 10000:10000
-
-networks:
-  gonet:
-    driver: bridge
