@@ -1,6 +1,10 @@
 # docker-golang-images-challenge
 Golang challeng docker images
 
+  div>LINK DO DOCKER HUB:</div>
+    Veja Aqui: <a href="[http://localhost:10000/](https://hub.docker.com/repository/docker/freitaspedros/fullcycle/tags?page=1&ordering=last_updated)" target="_blank">👉️Click aqui</a>
+ </div>
+
 <div>
   <h2>Passo 1:</h2>
   docker pull freitaspedros/fullcycle
