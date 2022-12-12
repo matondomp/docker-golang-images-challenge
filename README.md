@@ -7,11 +7,7 @@ Golang challeng docker images
 </div>
 <div>
   <h2>Passo 2:</h2>
-   docker run -d --name [container_name] -p 3500:10000 freitaspedros/fullcycle
-</div>
-<div>
-  <h2>Passo 3:</h2>
-  Veja no browser: <a href="http://localhost:3500/" target="_blank">👉️Click aqui</a>
+   docker run -it --name [container_name] freitaspedros/fullcycle
 </div>
 
 <div>
@@ -22,6 +18,8 @@ Golang challeng docker images
   </div>
    <h2>Passo 2: </h2>
     docker-compose up -d 
-  <div>Passo 3:</div>
-    Veja no browser: <a href="http://localhost:10000/" target="_blank">👉️Click aqui</a>
+  
+  
+  <div>LINK DO DOCKER HUB:</div>
+    Veja Aqui: <a href="[http://localhost:10000/](https://hub.docker.com/repository/docker/freitaspedros/fullcycle/tags?page=1&ordering=last_updated)" target="_blank">👉️Click aqui</a>
  </div>
